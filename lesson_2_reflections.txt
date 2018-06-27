@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+diff shows:
+if there is any extra word/charcted in one file
+If there is a mistyping in one file compare to other one
+it wrokd event for very long coding pages
+but it is not that useful if the content is very long
+better to have short continous content of 80 to 120 charcters
+enter to go to the next line
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+the histories are reflection of doing the task
+going through the history of the file can help understand the flow better
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+the positive side of it is that you wont get lots of unuseful commits automatically saved by syste
+you dont want the very small changed
+you dont want redundant commits
+you do want to manage when to save the commits
+the negative side:
+maybe the computer hanged
+maybe something unusual happens to the system
+then you wont be able to save it manually
+then you will loose the commit
+
+What do you think some versio control systems like Git allow saving multiple files in one commit while other like Google Docs treat each file separately?
+It is good to save multiple files in one commit as they are consistent 
+easier to understand the changes in different files
+quicker to follow the flow of changes when we save multiple files in one commit
+
+How can you use the commands git log and git diff to view the history of the files?
+Git log lists all the commits (and their ids) applied on one file in repository
+git diff compares two commits using the ids from git log
