@@ -1,2 +1,6 @@
 stating area is a mediator between the working directory and repository
 you can copy the files into staging area before creating a commit in the repository
+
+how to use staging area to make sure you have one commit per logical change?
+by using git diff --staged
+it shows the changes between the last commit and the last file in the staging area
