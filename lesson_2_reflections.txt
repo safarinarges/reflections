@@ -4,3 +4,10 @@ you can copy the files into staging area before creating a commit in the reposit
 how to use staging area to make sure you have one commit per logical change?
 by using git diff --staged
 it shows the changes between the last commit and the last file in the staging area
+
+what are some situations when ranches would be useful in keeping your history organiszed?
+when you want to have previous and new versions of one commit
+branch can help to create a new label for the commit
+and do the changes
+without any need to modify the master commit
+english version and italian version of one game
